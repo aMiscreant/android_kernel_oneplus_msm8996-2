@@ -214,8 +214,6 @@ config USB_NET_RNDIS_WLAN
 
 	  If you choose to build a module, it'll be called rndis_wlan.
 
-source "drivers/net/wireless/rtl818x/Kconfig"
-
 config ADM8211
 	tristate "ADMtek ADM8211 support"
 	depends on MAC80211 && PCI
@@ -346,5 +344,6 @@ source "drivers/net/wireless/rsi/Kconfig"
 source "drivers/net/wireless/cnss/Kconfig"
 source "drivers/net/wireless/cnss2/Kconfig"
 source "drivers/net/wireless/cnss_utils/Kconfig"
+source "drivers/net/wireless/rtl8188eus/Kconfig
 
 endif # WLAN
