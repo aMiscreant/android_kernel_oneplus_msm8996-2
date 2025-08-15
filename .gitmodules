@@ -1,0 +1,3 @@
+[submodule "drivers/net/wireless/rtl8188eus"]
+	path = drivers/net/wireless/rtl8188eus
+	url = https://github.com/drygdryg/rtl8188eus-318.git
